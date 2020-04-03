@@ -96,6 +96,12 @@ You can also use short names:
 > yarn crawl -l en-us -c USD -o linux -r us-west
 ```
 
+To retrieve european prices (for example from Italy region):
+
+```bash
+> yarn crawl -l it-it -c EUR -o linux -r europe-west
+```
+
 Arguments:
 
 - `culture` any of the `option` `value` in the **Culture** `select`
