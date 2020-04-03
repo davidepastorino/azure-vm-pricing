@@ -71,8 +71,15 @@ Retrieve `VMs` **hourly pricing** for a specific combination of **culture**, **c
 - `Node.js 12.13.0`
 - `Yarn 1.22.4`
 
-```powershell
-> cd .\parser\
+### Pre-requisites for Centos 7
+Add the packages needed by puppeteer and chromium on a minimal Centos 7 installation:
+
+    yum install libX11 libXcomposite libXcursor libXdamage libXext libXi libXtst cups-libs libXScrnSaver libXrandr atk at-spi2-atk pango gtk3
+
+
+
+```bash
+> cd ./parser
 > yarn
 ```
 
